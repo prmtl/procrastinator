@@ -1,0 +1,29 @@
+{
+  "name": "procrastinator",
+  "version": "0.0.1",
+  "description": "Chrome addon for blocking distrating websties",
+  "scripts": {
+    "test": "node scripts/run_tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prmtl/procrastinator.git"
+  },
+  "keywords": [
+    "chrome",
+    "addon"
+  ],
+  "author": "Sebastian Kalinowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prmtl/procrastinator/issues"
+  },
+  "homepage": "https://github.com/prmtl/procrastinator",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2",
+    "tape-run": "^2.1.4"
+  },
+  "dependencies": {}
+}
