@@ -1,6 +1,6 @@
 {
   "name": "procrastinator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Chrome addon for blocking distrating websties",
   "scripts": {
     "test": "node scripts/run_tests.js"
