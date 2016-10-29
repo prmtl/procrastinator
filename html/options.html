@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Procrastinator Options</title>
+  <style>
+    body: { padding: 10px; }
+    .field {
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="status"></div>
+  <div class="field">
+    <div>
+      <h3>Blocked URLs</h3>
+      <textarea id="urls" rows="8" cols="40"></textarea>
+    </div>
+  </div>
+
+  <div class="field">
+    <div>
+      <h3>Turn on/off</h3>
+      <label>
+        <input type="checkbox" id="enabled">
+        Enable blocking
+      </label>
+    </div>
+  </div>
+
+  <div class="field">
+    <button id="save">Save</button>
+  </div>
+
+  <script src="/js/options.js"></script>
+</body>
+</html>
